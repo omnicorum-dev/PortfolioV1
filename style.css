@@ -293,10 +293,12 @@ html {
 
 .video__desc h2 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 200;
     color: #4d7ee6;
     text-shadow: 0 0 3px #555;
+    display: inline-block;
+    margin-right: 0.2rem;
 }
 
 .video__desc p {

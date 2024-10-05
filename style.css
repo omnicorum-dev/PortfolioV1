@@ -39,7 +39,8 @@ html {
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     /*color: #f1f1f1;*/
-    text-shadow: 2px 2px 3px #a0a0a0;
+    text-shadow: 2px 2px 1px #a0a0a0;
+    transform: scale(1.1);
 }
 
 .navbar {

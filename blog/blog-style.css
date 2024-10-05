@@ -6,7 +6,7 @@
 }
 
 .blog-header {
-    background-color: #1b1920;
+    background-color: #0d0c0f;
     height: 4vh;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
     flex-direction: column;
     margin: 0 0;
     min-height: 96vh;
-    background-color: #1b1920;
+    background-color: #0d0c0f;
     z-index: 1;
     width: 100%;
     padding: 2rem 7rem;

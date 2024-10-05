@@ -224,6 +224,24 @@ html {
     padding: 0 50px;
 }
 
+.main__container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    min-height: 78vh;
+    background-color: #200019;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.youtube {
+    padding: 40px;
+}
+
 .main__content h1{
     font-size: 4rem;
     background-color: #ff8177;
@@ -254,6 +272,34 @@ html {
     font-weight: 700;
     color: #fff;
     text-shadow: 0 0 20px #999;
+}
+
+.video__desc h1 {
+    font-size: 2.5rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    text-shadow: 0 0 30px #f77;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.video__desc h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #4d7ee6;
+    text-shadow: 0 0 3px #555;
+}
+
+.video__desc p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 3px #555;
 }
 
 .main__btn {
@@ -374,7 +420,6 @@ html {
 
 .skills {
     position: relative;
-    display: grid;
     align-content: center;
     align-items: center;
     min-height: 300px;
@@ -437,7 +482,6 @@ html {
 }
 
 .languages {
-    display: inline-block;
     font-size: 1.1rem;
 }
 
@@ -448,15 +492,18 @@ html {
     padding: 1rem;
     margin: 0.4rem;
     display: inline-block;
-    transition: 1s;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
 
+.lang:hover, .lang:focus {
+    text-shadow: 0px 10px 3px #fff;
+}
+
 .lang:nth-child(2) {
-    transition-delay: 200ms;
+    transition-delay: transform 200ms;
 }
 .lang:nth-child(3) {
     transition-delay: 400ms;

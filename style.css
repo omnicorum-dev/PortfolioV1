@@ -20,8 +20,10 @@ html {
     z-index: 1; /* Stay on top */
     bottom: 0; /* Stay at the top */
     right: 0;
+    text-align: right;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 /* The navigation menu links */

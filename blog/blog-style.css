@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+header {
+    background-color: #1b1920;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.blog {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    min-height: 96vh;
+    background-color: #1b1920;
+    z-index: 1;
+    width: 100%;
+    padding: 2rem 7rem;
+}
+
+.blog h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem;
+    padding: 1rem;
+    text-shadow: 0px 0px 50px #fff;
+}
+
+.blog p {
+    text-indent: 100px;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.5;
+    padding-bottom: 5rem;
+}
+
+.main {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0;
+    height: 100vh;
+    background-color: #0b0615;
+    z-index: 1;
+    width: 100vw;
+    padding: 0px 10px;
+}
+
+.main h1 {
+    font-size: 4rem;
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 15px;
+    text-shadow: 2px 2px 0 #f22,
+        4px 4px 0 #2f2,
+        6px 6px 0 #22f,
+        8px 8px 0 #222;
+}
+
+.main li {
+    display:flex;
+    flex-wrap:nowrap;
+    align-items:center;
+    padding-bottom: 10px;
+}
+
+a {
+    color: pink;
+    padding-right: 0.3rem;
+}

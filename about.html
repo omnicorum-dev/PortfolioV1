@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Kumbh Sans', sans-serif;
+            color: white;
+            background: #200019;
+            overflow-x: hidden;
+        }
+
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 300px;
+            padding: 100px 20vw;
+
+        }
+
+        .blue {
+            background: #3c31dd;
+        }
+
+        .red {
+            background: #dd3f31;
+        }
+
+        .pink {
+            background: #ff0066;
+        }
+
+        .dark {
+            background: #001220;
+        }
+
+        .curve {
+            position: absolute;
+            height: 225px;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .curve::before {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 100% 50%;
+            width: 55%;
+            height: 100%;
+            background-color: #200019;
+            transform: translate(85%, 60%);
+        }
+
+        .curve::after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 100% 50%;
+            width: 55%;
+            height: 100%;
+            background-color: #3c31dd;
+            transform: translate(-4%, 40%);
+            z-index: -1;
+        }
+
+        .spacer {
+            aspect-ratio: 960/300;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .layer1 {
+            background-image: url('./images/waves3.svg');
+        }
+
+    </style>
+</head>
+<body>
+    <section class = "blue">
+        <h1><a href="/index.html">Back to Home</a></h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, natus? Suscipit magni rem eos rerum eveniet facilis voluptatem explicabo error officiis animi molestias aliquam nihil consequuntur quo, magnam laborum repudiandae.</p>
+        <div class="curve"></div>
+    </section>
+    <section>
+        <h1>Nice Curves</h1>
+        <p>Officiis repellendus corrupti, aperiam, explicabo delectus culpa aliquid expedita minus perferendis error consectetur reprehenderit beatae ducimus earum sint laborum sequi quibusdam consequatur quia omnis necessitatibus? Accusamus dolores excepturi commodi rerum.</p>
+    </section>
+    <section class = "red">
+        <h1>Nice Curves</h1>
+        <p>Assumenda laboriosam vero odit nemo explicabo, unde recusandae reiciendis eum labore laudantium veritatis illo quae sapiente sit provident exercitationem soluta ex ducimus omnis consectetur expedita vel quasi eveniet quos. Alias.</p>
+    </section>
+    <div class="spacer layer1"></div>
+    <section class = "dark">
+        <h1>Nice Curves</h1>
+        <p>Suscipit reprehenderit quae doloremque veniam magnam sapiente, impedit aliquid officia blanditiis. Maiores necessitatibus, sit at, cum rem harum magnam illo porro voluptatem delectus dolore. Dolor molestiae fugit vero perspiciatis eum.</p>
+    </section>
+    <section>
+        <h1>Nice Curves</h1>
+        <p>Mollitia, possimus facere rerum id distinctio iusto quas omnis placeat animi voluptatem corrupti ab ut culpa saepe! Officia quae, deserunt vitae quidem eveniet sapiente, cumque architecto quam aspernatur labore unde.</p>
+    </section>
+    <section>
+        <h1>Nice Curves</h1>
+        <p>Asperiores tenetur exercitationem neque perferendis, modi ex provident repellat fugit error sit consequuntur esse autem! Illum error neque, sapiente voluptatum esse fugiat reiciendis, architecto voluptates similique dolor corporis distinctio hic.</p>
+    </section>
+    <section>
+        <h1>Nice Curves</h1>
+        <p>Voluptatem omnis ab incidunt laudantium mollitia fugiat commodi beatae itaque accusantium ex obcaecati repellat alias saepe excepturi corrupti, molestias minima optio et delectus eos harum, assumenda similique. Maiores, at voluptatibus?</p>
+    </section>
+    <section>
+        <h1>Nice Curves</h1>
+        <p>Aut, impedit voluptatum fuga earum fugiat illo quibusdam aliquid numquam libero minus non sit vero atque! Distinctio blanditiis cumque, ipsa asperiores nemo tempora, veniam, quasi amet cupiditate consectetur aliquam ad.</p>
+    </section>
+</body>
+</html>

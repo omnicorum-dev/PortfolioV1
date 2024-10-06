@@ -361,11 +361,17 @@ html {
     text-decoration: none;
 }
 
+.gitlink p:hover {
+    background-color: #ff47c2;
+    color: white;
+}
+
 .gitlink p{
     white-space: pre;
     color: #ff47c2;
     margin-top: 0;
     padding: 7px;
+    transition: 0.3s;
 }
 
 .gitlink img {
@@ -508,6 +514,7 @@ html {
     background-image: linear-gradient(to top, #00bc22 0%, #68ffa7 100%);
     background-size: 100%;
     text-shadow: 0 0 50px #44ff00;
+    filter: drop-shadow(2px 4px 0px black);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -518,6 +525,36 @@ html {
     font-size: 2.5rem;
     color: #fe8ad3;
     text-shadow: 0 0.1rem 3px rgb(83, 0, 83);
+}
+
+.about {
+    color: white;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    text-shadow: 0 3px 7px #7a221a;
+}
+
+.about mark {
+    color: rgb(82, 217, 255);
+    font-weight: 600;
+    /*text-decoration: underline #77f;*/
+    background-color: transparent;
+    transition: 0.23s;
+}
+
+.about a {
+    text-decoration: 2px underline white;
+    transition: 0.23s;
+}
+
+.about a:hover {
+    text-decoration: 2px underline black;
+}
+
+.about mark:hover {
+    color: black;
+    background-color: #77f;
+    text-shadow: 0 0px 12px #fff;
 }
 
 .spacer {

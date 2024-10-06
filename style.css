@@ -673,8 +673,13 @@ html {
     user-select: none; /* Standard syntax */
 }
 
-.lang:hover, .lang:focus {
-    /*text-shadow: 0px 10px 3px #fff;*/
+.lang p {
+    transition: 0.2s;
+}
+
+.lang p:hover, .lang p:focus {
+    transform: scale(109%);
+    text-shadow: 0 0 5px rgb(69, 200, 220);
 }
 
 .lang:nth-child(2) {

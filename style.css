@@ -13,6 +13,28 @@ html {
     scroll-behavior: smooth;
 }
 
+.made__with {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 130px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    bottom: 0; /* Stay at the top */
+    left: 0;
+    text-align: left;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.made__with p {
+    text-decoration: none;
+    font-size: 12px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    text-shadow: 0 0 4px #333;
+}
+
 .sidenav {
     height: auto; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
